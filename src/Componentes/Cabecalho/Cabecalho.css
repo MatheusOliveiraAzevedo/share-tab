@@ -1,0 +1,29 @@
+.cabecalho {
+    display: grid;
+    align-items: center;
+    height: 20vh;
+
+}
+
+.cabecalho h1 {
+    margin: 5px;
+    color: #8fe257;
+    font-family: 'Moirai One', cursive;
+    font-size: 60px;
+    text-shadow: 10px 10px 10px #ffffff;
+}
+
+.cabecalho p {
+    margin: 5px;
+    color: #fdd283;
+}
+
+@media screen and (max-width: 1023px) {
+    .cabecalho h1 {
+        font-size: 140px;
+    }
+
+    .cabecalho p {
+        font-size: 35px;
+    }
+}

@@ -1,0 +1,48 @@
+.corpo {
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+
+}
+
+.corpo label {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    color:#fdd283;
+}
+
+.corpo input {
+    width: 100px;
+    height: 4vh;
+    margin: 10px 0 10px 0;
+    opacity: 1;
+    border-radius: 5px;
+    border: none;
+    border-bottom: 3px solid #78c147ad;
+    font-size: 18px;
+    color: #78c147ad;
+    background-color: transparent;
+
+}
+
+.corpo input::placeholder {
+    color: #7ea068;
+}
+
+@media screen and (max-width: 1023px) {
+    .corpo input {
+        width: 40vw;
+        height: 2vh;
+        font-size: 45px;
+    }
+
+    .corpo label {
+        font-size: 50px;
+    }
+    
+    .corpo input::placeholder {
+        font-size: 45px;
+        text-align: center;
+    }
+}
+

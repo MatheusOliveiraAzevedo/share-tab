@@ -1,0 +1,71 @@
+body {
+    background-color: #8e8d8d;
+    display: grid;
+    justify-content: center;
+}
+
+.container {
+    font-family: 'Comfortaa', cursive;
+    display: grid;
+    height: 70vh;
+    width: 40vw;
+    background-color: #bc505075;
+    /* background-image: linear-gradient(to bottom, #aae2b5, #6aadaf, #bc505075); */
+    box-shadow: 15px 15px 30px #fce6be;
+    margin-top: 60px;
+    border: 3px solid black;
+}
+
+
+.container button {
+    font-family: 'Comfortaa', cursive;
+    width: 70px;
+    height: 40px;
+    margin: 10px 0 40px 0;
+    border: none;
+    border-radius: 15px;
+    padding: 2px;
+    font-size: 25px;
+    background-color: transparent;
+    color: #8fe257;
+    text-shadow: 5px 5px 5px #FFF;
+}
+
+.texoResultado {
+    color: #FFF;
+    font-size: 15px;
+}
+
+.textoMaior {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+@media screen and (max-width: 1023px) {
+    .container {
+        width: 90vw;
+        height: 90vh;
+    }
+
+    .container button {
+        width: 100%;
+        height: 20%;
+        margin: 10px 0 40px 0;
+        border: none;
+        border-radius: 15px;
+        padding: 2px;
+        font-size: 60px;
+        background-color: transparent;
+        color: #8fe257;
+        text-shadow: 5px 5px 5px #FFF;
+    }
+
+    .texoResultado {
+        font-size: 35px;
+    }
+    
+    .textoMaior {
+        font-size: 48px;
+    }
+}
